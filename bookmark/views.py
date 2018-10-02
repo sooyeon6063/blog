@@ -15,3 +15,5 @@ class BookmarkDV(DetailView):
     # 2) 디폴트 템플릿 파일명 소문자모델명_detail.html = bookmark_detail.html
     #    기본 키로 조회하는 경우, 모델 클래스 명만 지정하면,
     #    r'^bookmark/(?P<pk>)\d+)/$'에 따라서 기본 키 값이 자동으로 인수 전달됨
+class tabularBookmark(ListView):
+    model = Bookmark
