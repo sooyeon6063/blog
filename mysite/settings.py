@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bookmark.apps.BookmarkConfig',
+    'bookmark.apps.BookmarkConfig', # BookMark앱을 추가등록
+    'blog.apps.BlogConfig', # blog앱을 추가등록
 ]
 
 MIDDLEWARE = [
